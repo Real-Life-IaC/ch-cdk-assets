@@ -1,0 +1,50 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "*"
+            ],
+            "Resource": "*",
+            "Effect": "Allow"
+        },
+        {
+            "Action": [
+                "rds:DeleteDBSnapshot",
+                "ec2:DeleteSnapshot",
+                "ec2:CreateKeypair",
+                "ec2:ImportKeyPair",
+                "rds:CopyDBClusterSnapshot",
+                "rds:CopyDBSnapshot",
+                "rds:CreateDBClusterSnapshot",
+                "rds:DeleteDBClusterSnapshot",
+                "rds:DeleteDBSnapshot",
+                "rds:ModifyDBClusterSnapshotAttribute",
+                "rds:ModifyDBSnapshotAttribute",
+                "dynamodb:BatchGetItem",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:DeleteItem",
+                "dynamodb:GetItem",
+                "dynamodb:GetRecords",
+                "dynamodb:GetShardIterator",
+                "dynamodb:PutItem",
+                "dynamodb:Query",
+                "dynamodb:Scan",
+                "dynamodb:UpdateItem",
+                "sso-directory:UpdateUserName",
+                "sso-directory:DisableUser",
+                "sso-directory:UpdateUser",
+                "sso-directory:EnableUser",
+                "sso-directory:UpdatePassword",
+                "sso-directory:UpdateGroup",
+                "sso-directory:DeleteGroup",
+                "sso-directory:CreateGroup",
+                "sso-directory:DeleteMfaDeviceForUser",
+                "sso-directory:CreateUser",
+                "sso-directory:DeleteUser"
+            ],
+            "Resource": "*",
+            "Effect": "Deny"
+        }
+    ]
+}
