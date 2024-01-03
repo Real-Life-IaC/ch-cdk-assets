@@ -1,4 +1,4 @@
-# Chapter: Testing CDK Constructs
+# Chapter: CDK Assets
 
 ## Create the virtual environment and install dependencies
 
