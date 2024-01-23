@@ -10,7 +10,6 @@
         },
         {
             "Action": [
-                "rds:DeleteDBSnapshot",
                 "ec2:DeleteSnapshot",
                 "ec2:CreateKeypair",
                 "ec2:ImportKeyPair",
